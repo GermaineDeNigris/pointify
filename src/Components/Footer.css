@@ -1,0 +1,15 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 6rem;
+    text-align: center;
+    line-height: .5;
+  }
+
+  .top-text-container {
+    margin-bottom: 4rem;
+  }
+
+  .top-text-container >h1 , .contact-info > h1 {
+    font-weight: 400;
+  }

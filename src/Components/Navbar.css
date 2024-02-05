@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #d2d8e1;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .logo {
+  max-width: 25em;
+  height: auto;
+  margin-top: -20px;
+  margin-left: 80px;
+}
+
+.navbar .login-btn {
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #22c55e, #3c7141);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #167f3d, #1f3a21);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .navbar {
+    align-content: space-between;
+  }
+
+  .navbar .logo {
+    max-width: 20em;
+    margin-left: -150px;
+  }
+
+  .navbar .login-btn {
+    width: 20%;
+    padding: .75rem .5rem;
+    margin-bottom: 1rem;
+  }
+}
