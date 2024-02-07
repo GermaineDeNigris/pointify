@@ -2,7 +2,7 @@ import React from 'react';
 import './MiddleSection.css'; 
 import pointifyCardSelected from "../assets/images/pointify-card-selected.png";
 import pointifyLogin from "../assets/images/pointify-login.png";
-import pointifyJoin from "../assets/images/pointify-join.png";
+
 
 const MiddleSection = () => {
     return (

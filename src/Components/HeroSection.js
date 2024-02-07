@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./HeroSection.css";
 import pointifyCardSelected from "../assets/images/pointify-card-selected.png";
 import pointifyLogin from "../assets/images/pointify-login.png";
