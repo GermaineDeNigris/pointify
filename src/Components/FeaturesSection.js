@@ -1,6 +1,7 @@
 import React from "react";
 import "./FeaturesSection.css";
 import pointifyPopup from "../assets/images/pointify-popup-checkout.png";
+import pointifyWidget from "../assets/images/pointify-widget.png"
 import { useInView } from "react-intersection-observer";
 
 const FeaturesSection = () => {
@@ -15,6 +16,7 @@ const FeaturesSection = () => {
       <div ref={ref} className={`image-container ${inView ? "active" : ""}`}>
         <img src={pointifyPopup} alt="Pointify Popup Checkout" />
       </div>
+      <img src={pointifyWidget} alt="Mobile Specific Widget" className="mobile-image" />
       <div className="feature-text">
         <h2 className="features-title">Smart Card Selector</h2>
         <p>
