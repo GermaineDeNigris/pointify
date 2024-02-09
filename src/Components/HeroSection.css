@@ -93,7 +93,6 @@
 @media (max-width: 768px) {
   .hero-section {
       padding: 1rem; 
-
   }
 
   .hero-section .hero-title {
@@ -103,7 +102,7 @@
   .hero-section .hero-subtitle {
     margin-bottom: auto;
     font-size: 1.2rem;
-    width: 80%;
+    width: 90%;
   }
 
   .images-container img {

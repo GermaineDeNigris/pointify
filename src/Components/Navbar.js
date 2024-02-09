@@ -8,7 +8,6 @@ const Navbar = () => {
       <div className="logo-container">
         <img src={pointifyLogo} alt="Pointify Logo" className="logo" />
       </div>
-      <button className="login-btn">LOG IN</button>
     </nav>
   );
 };
