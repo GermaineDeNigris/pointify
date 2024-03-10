@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./HeroSection.css";
 import pointifyCardSelected from "../assets/images/pointify-card-selected.png";
 import pointifyLogin from "../assets/images/pointify-login.png";
-import pointifyJoin from "../assets/images/pointify-join.png";
+import pointifyCardSelect from "../assets/images/pointify-card-select.png";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
@@ -74,7 +74,7 @@ useEffect(() => {
       </p>
       <div className="images-container">
         <img src={pointifyLogin} alt="Join Pointify" className="image1" />
-        <img src={pointifyJoin} alt="Login to Pointify" className="image2" />
+        <img src={pointifyCardSelect} alt="Login to Pointify" className="image2" />
         <img src={pointifyCardSelected} alt="Pointify Card Selected" className="image3" />
       </div>
       <button
