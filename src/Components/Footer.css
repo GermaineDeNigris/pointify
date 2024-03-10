@@ -20,5 +20,14 @@
       line-height: 1;
     }
 
+    .top-text-container >h1 , .contact-info > h1 {
+      font-weight: 400;
+      text-align: center;
+      margin: auto;
+    }
+
+    .contact-info > h1 {
+      margin-left: -60px;
+    }
 }
 
